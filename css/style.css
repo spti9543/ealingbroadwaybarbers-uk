@@ -1464,3 +1464,91 @@ img {
 .toc__list-e38a1162 a { text-decoration: none; color: inherit; opacity: .9; }
 .toc__list-e38a1162 a:hover { text-decoration: underline; opacity: 1; }
 .toc__sublist-e38a1162 { padding-left: 1.3em; font-size: .95em; opacity: .8; }
+
+
+.bonus-offer-e38a1162 {
+    margin: var(--spacing-xl) 0;
+}
+
+.bonus-offer__grid-e38a1162 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+}
+
+.bonus-offer__card-e38a1162 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow);
+}
+
+.bonus-offer__card--a-e38a1162 {
+    background: color-mix(in srgb, var(--color-primary) 14%, var(--color-bg-card));
+}
+
+.bonus-offer__card--b-e38a1162 {
+    background: color-mix(in srgb, var(--color-accent) 14%, var(--color-bg-card));
+}
+
+.bonus-offer__card--c-e38a1162 {
+    background: color-mix(in srgb, var(--color-gold) 14%, var(--color-bg-card));
+}
+
+.bonus-offer__badge-e38a1162 {
+    display: inline-block;
+    padding: 0.25rem 0.9rem;
+    border-radius: 999px;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.bonus-offer__icon-e38a1162 {
+    font-size: 2.5rem;
+    line-height: 1;
+    margin: var(--spacing-xs) 0;
+}
+
+.bonus-offer__headline-e38a1162 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.bonus-offer__desc-e38a1162 {
+    color: var(--color-text-light);
+    margin: 0;
+}
+
+.bonus-offer__button-e38a1162 {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: var(--spacing-xs);
+    padding: 0.7rem 1.6rem;
+    border-radius: var(--border-radius);
+    background: var(--color-primary);
+    color: var(--color-bg);
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: var(--glow-primary);
+}
+
+.bonus-offer__button-e38a1162:hover {
+    background: var(--color-primary-hover);
+    color: var(--color-bg);
+}
+
+@media (max-width: 860px) {
+    .bonus-offer__grid-e38a1162 {
+        grid-template-columns: 1fr;
+    }
+}
